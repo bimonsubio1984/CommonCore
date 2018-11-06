@@ -1,0 +1,17 @@
+This is a port of VB2008 library which has:
+Information.IsNothing, etc.
+Strings.Len, Right, Left, etc.
+Conversion.
+And many more
+
+It just let you run existing VB code already today before Core V3 is released.
+
+For examples following code works fine using ported lib:
+
+DateAndTime.Year(D) & "" & Strings.Format(DateAndTime.Month(D), "00") & "(" & MonthNames(DateAndTime.Month(D) - 1) & ")" & Strings.Format(DateAndTime.Day(D), "00") & "__" & Strings.Format(DateAndTime.Hour(D), "00") & "" & Strings.Format(DateAndTime.Minute(D), "00") & "" & Strings.Format(DateAndTime.Second(D), "00")
+
+If Information.UBound(A) = 2 Then
+XXX = DateAndTime.DateSerial(A2(0), Strings.Left(A2(1), 2), A2(2))
+End If
+
+You know a lot of legacy code exists which is very desirable to run on Core ASAP.
