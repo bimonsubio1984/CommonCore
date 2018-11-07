@@ -15,3 +15,11 @@ XXX = DateAndTime.DateSerial(A2(0), Strings.Left(A2(1), 2), A2(2))
 End If
 
 You know a lot of legacy code exists which is very desirable to run on Core ASAP.
+
+
+Though this port is done in C# actually I am a VB.net guy with about 10 years of previous experience working remotely with an USA company.
+If you are looking for any inexpensive remote paid help (having a part time job for me) with DotNet programming, Linux administration, 
+Bot creation (like ZennoPoster automation), please contact me by e-mail or github:   bimonsubio1984 (at) gmail [dot] com
+
+Kind Regards,
+Bimon Subio.
